@@ -1,0 +1,22 @@
+﻿@model EmailTask.Models.StudentModel
+
+
+<form asp-action="Index" asp-controller="Home">
+    <label asp-for="From"></label>
+    <input asp-for="From" class="form-control" />
+    <br />
+    <label asp-for="To"></label>
+    <input asp-for="To" class="form-control" />
+    <br />
+    <label asp-for="Subject"></label>
+    <input asp-for="Subject" class="form-control" />
+    <br />
+
+
+    <label asp-for="Body"></label>
+    <input asp-for="Body" class="form-control" />
+    <br />
+    <br />
+    <button type="submit" class="btn btn-primary">Send</button>
+
+</form>
